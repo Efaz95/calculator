@@ -40,7 +40,7 @@ def calc(sign):
 			result_label.config(text=res)
 
 
-title_label = tkinter.Label(window, text="A very simple calculator", fg='blue', font='Helvetica 18')
+title_label = tkinter.Label(window, text="Calculator", fg='blue', font='Helvetica 18')
 title_label.grid(row=0, column=0, columnspan=2)
 
 entry_A = tkinter.Entry(window)
